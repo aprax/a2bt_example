@@ -33,10 +33,10 @@
   resolved "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
-a2bt@1.0.0-2:
-  version "1.0.0-2"
-  resolved "https://registry.yarnpkg.com/a2bt/-/a2bt-1.0.0-2.tgz#e2fb0cf0ab839f4da594cc4d7458932915443d43"
-  integrity sha512-rQJ9OepJi+UWXbKCWTEksm9Vpdddfh+3X5ia3LhBVYw7x0/iZLjRDYEjO4k4uPkNUzxMTYXhS5d+d9kKyE5Wdw==
+a2bt@^1.0.0-4:
+  version "1.0.0-4"
+  resolved "https://registry.yarnpkg.com/a2bt/-/a2bt-1.0.0-4.tgz#1994ee8f352436e1bec8aa2f1f0ba7c76651a4ad"
+  integrity sha512-oOnjk3ieK2laqI0+SqPNy8q9sHy6XfQGW/Q+XNmMPPHZB2oJBPZx0NDqngBbf5+1/f7xQmS2JEZXi3TbxsVGzA==
   dependencies:
     meow "^10.1.2"
 

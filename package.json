@@ -10,6 +10,6 @@
   "author": "Adam Prax",
   "license": "ISC",
   "dependencies": {
-    "a2bt": "1.0.0-2"
+    "a2bt": "^1.0.0-4"
   }
 }

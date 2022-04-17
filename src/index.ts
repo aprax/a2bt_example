@@ -1,12 +1,31 @@
-import a2bt, {toConsole} from 'a2bt';
+import a2bt, { toConsole, rootToArray } from "a2bt";
+import type { TreeNode } from "a2bt/dist/rootToArray";
 
-const SIZE = 31;
-const numbers = Array(SIZE);
-for (let x = 1; x <= SIZE; x++) {
-	numbers[x-1] = x;	
+const addend = 1;
+const grid = true;
+const nodes = ["aaa", "bbb", "ccc"];
+const fgColor = 93;
+
+toConsole(a2bt(nodes, addend, grid, fgColor));
+
+//--------------------
+
+const root: TreeNode = {
+	val: 1,
+	left: {
+		val: 2,
+		right: {
+			val: 4
+		}
+	},
+	right: {
+		val: 3
+	}
 }
+const array: string[] = [];
 
-const heightAddend = 0;
-const showGrid = false;
-const fgColor = 92
-toConsole(a2bt(numbers, heightAddend, showGrid, fgColor));
+
+// You can use rootToArray to convert an TreeNode root into an array so that it can be used with a2bt.
+rootToArray(array, root)
+
+toConsole(a2bt(array))
