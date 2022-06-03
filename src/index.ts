@@ -1,13 +1,11 @@
-const { treeNodeToBinaryArray, default: a2bt } = require("a2bt");
+import a2bt, { treeNodeToBinaryArray } from "a2bt";
 
 const addend = 1;
 const grid = true;
 const nodes = ["aaa", "bbb", "ccc"];
 const fgColor = 93;
 
-a2bt({ nodes, heightAddend: addend, showGrid: grid, fgColor });
-
-//--------------------
+a2bt(nodes, { heightAddend: addend, showGrid: grid, fgColor });
 
 const root = {
 	val: 1,
@@ -21,10 +19,5 @@ const root = {
 		val: 3
 	}
 }
-const array: string[] = [];
 
-
-// You can use rootToArray to convert an TreeNode root into an array so that it can be used with a2bt.
-treeNodeToBinaryArray(root)
-
-a2bt({ nodes: array })
+a2bt(treeNodeToBinaryArray(root))
