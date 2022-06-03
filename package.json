@@ -10,8 +10,7 @@
   "author": "Adam Prax",
   "license": "ISC",
   "dependencies": {
-    "@aprax/fast-queue": "^1.0.0-4",
-    "a2bt": "^3.0.0-3"
+    "a2bt": "3.0.1-0"
   },
   "devDependencies": {
     "@types/node": "^17.0.36",
