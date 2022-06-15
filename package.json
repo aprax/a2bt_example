@@ -1,5 +1,5 @@
 {
-  "name": "a2bt_example",
+  "name": "typescript_tree_from_preorder_postorder",
   "version": "1.0.0",
   "description": "Example using a2bt in a module.",
   "main": "dist/index.js",
@@ -10,15 +10,19 @@
   "author": "Adam Prax",
   "license": "ISC",
   "dependencies": {
-    "@aprax/fast-queue": "^1.0.0-4",
-    "a2bt": "^3.0.0-3"
+    "a2bt": "^3.0.1-0"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.0",
     "@types/node": "^17.0.36",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.6.2"
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
   }
 }

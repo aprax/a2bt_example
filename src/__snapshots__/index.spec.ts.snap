@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the test case 1`] = `
+TreeNode {
+  "left": TreeNode {
+    "left": TreeNode {
+      "left": undefined,
+      "right": undefined,
+      "val": 4,
+    },
+    "right": TreeNode {
+      "left": undefined,
+      "right": undefined,
+      "val": 5,
+    },
+    "val": 2,
+  },
+  "right": TreeNode {
+    "left": TreeNode {
+      "left": undefined,
+      "right": undefined,
+      "val": 6,
+    },
+    "right": TreeNode {
+      "left": undefined,
+      "right": undefined,
+      "val": 7,
+    },
+    "val": 3,
+  },
+  "val": 1,
+}
+`;
+
+exports[`should pass test 67 1`] = `
+TreeNode {
+  "left": TreeNode {
+    "left": TreeNode {
+      "left": undefined,
+      "right": undefined,
+      "val": 5,
+    },
+    "right": TreeNode {
+      "left": TreeNode {
+        "left": undefined,
+        "right": undefined,
+        "val": 1,
+      },
+      "right": undefined,
+      "val": 4,
+    },
+    "val": 2,
+  },
+  "right": undefined,
+  "val": 3,
+}
+`;
